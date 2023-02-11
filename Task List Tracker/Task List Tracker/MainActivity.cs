@@ -36,11 +36,17 @@ namespace Task_List_Tracker
                 case Resource.Id.navigation_home:
                     textMessage.SetText(Resource.String.title_home);
                     return true;
+                case Resource.Id.navigation_list_task:
+                    textMessage.SetText(Resource.String.title_list_task);
+                    return true;
+                case Resource.Id.navigation_add_task:
+                    textMessage.SetText(Resource.String.title_add_task);
+                    return true;
+                case Resource.Id.navigation_victory:
+                    textMessage.SetText(Resource.String.title_victory);
+                    return true;
                 case Resource.Id.navigation_dashboard:
                     textMessage.SetText(Resource.String.title_dashboard);
-                    return true;
-                case Resource.Id.navigation_notifications:
-                    textMessage.SetText(Resource.String.title_notifications);
                     return true;
             }
             return false;
