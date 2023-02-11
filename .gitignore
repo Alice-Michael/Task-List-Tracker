@@ -1,1 +1,10 @@
 *.zip
+*.cache
+*.Zip
+Debug/
+obj/
+*debug*
+*vsidx
+.vs/
+*.csproj*
+*.patch
